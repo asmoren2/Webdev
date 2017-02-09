@@ -1,0 +1,250 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Adolfo Moreno - Resume</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="portfolio-logo"></div>
+                    <span><a href="http://github.com/asmoren2"><img id="smImages" src="images/1485154260_GitHub.png" alt=""></a></span>
+                    <span><a href="http://facebook.com/adolfoisthebomb"><img id="smImages" src="images/1485154633_Facebook.png" alt=""></a></span>
+                    <span><a href="https://www.linkedin.com/in/adolfomoreno0/"><img id="smImages" src="images/1485154642_LinkedIn.png" alt=""></a></span>
+                    <span><a href="http://twitter.com/adolfomoreno0"><img id="smImages" src="images/1485154650_Twitter.png" alt=""></a></span>
+
+                </span>
+            </div>
+            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link" href="about.html">About</a>
+                    <a class="mdl-navigation__link" href="current.html">Currently doing</a>
+                    <a class="mdl-navigation__link" href="projects.html">Projects</a>
+                    <a class="mdl-navigation__link is-active" href="resume.html">Resume</a>
+                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link" href="about.html">About</a>
+                <a class="mdl-navigation__link" href="current.html">Currently doing</a>
+                <a class="mdl-navigation__link" href="projects.html">Projects</a>
+                <a class="mdl-navigation__link is-active" href="resume.html">Resume</a>
+                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid portfolio-max-width">
+                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Adolfo Moreno</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <!-- Raised button with ripple -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="window.location='http://www.adolfomoreno.me/Adolfo_Moreno_Resume_2017.pdf';">
+  Download PDF Resume
+</button>
+</br>
+                        <strong>Phone</strong>
+                        <span>1(847)293-9820</span>
+                        </br>
+                        <strong>Location</strong>
+                        <span>Chicago, IL</span>
+                    </br>
+                    <strong>Email</strong>
+                    <span>asmoren2@uic.edu</span>
+                        <!-- Simple MDL Progress Bar -->
+                    </div>
+                    <div class="mdl-grid portfolio-copy">
+                        <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Skills</h3>
+                        <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding">
+                            <strong>Java</strong>
+                            </br>
+                            <div id="p1" class="mdl-progress mdl-js-progress" style="height:30px"></div>
+                            <script>
+                                document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+                                    this.MaterialProgress.setProgress(95);
+                                });
+                            </script>
+                            <strong>CSS</strong>
+                            </br>
+                            <div id="p2" class="mdl-progress mdl-js-progress" style="height:30px"></div>
+                            <script>
+                                document.querySelector('#p2').addEventListener('mdl-componentupgraded', function() {
+                                    this.MaterialProgress.setProgress(95);
+                                });
+                            </script>
+                            <strong>JavaScript</strong>
+                            </br>
+                            <div id="p3" class="mdl-progress mdl-js-progress" style="height:30px"></div>
+                            <script>
+                                document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
+                                    this.MaterialProgress.setProgress(80);
+                                });
+                            </script>
+                            <strong>C++</strong>
+                            </br>
+                            <div id="p9" class="mdl-progress mdl-js-progress" style="height:30px"></div>
+                            <script>
+                                document.querySelector('#p9').addEventListener('mdl-componentupgraded', function() {
+                                    this.MaterialProgress.setProgress(70);
+                                });
+                            </script>
+                            <strong>C#</strong>
+                            </br>
+                            <div id="p8" class="mdl-progress mdl-js-progress" style="height:30px"></div>
+                            <script>
+                                document.querySelector('#p8').addEventListener('mdl-componentupgraded', function() {
+                                    this.MaterialProgress.setProgress(65);
+                                });
+                            </script>
+                            <strong>SQL</strong>
+                            </br>
+                            <div id="p11" class="mdl-progress mdl-js-progress" style="height:30px"></div>
+                            <script>
+                                document.querySelector('#p11').addEventListener('mdl-componentupgraded', function() {
+                                    this.MaterialProgress.setProgress(85);
+                                });
+                            </script>
+
+
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding">
+                            <strong>HTML</strong>
+                            </br>
+                            <div id="p4" class="mdl-progress mdl-js-progress" style="height:30px"></div>
+                            <script>
+                                document.querySelector('#p4').addEventListener('mdl-componentupgraded', function() {
+                                    this.MaterialProgress.setProgress(95);
+                                });
+                            </script>
+                            <strong>C</strong>
+                            </br>
+                            <div id="p5" class="mdl-progress mdl-js-progress" style="height:30px"></div>
+                            <script>
+                                document.querySelector('#p5').addEventListener('mdl-componentupgraded', function() {
+                                    this.MaterialProgress.setProgress(85);
+                                });
+                            </script>
+                            <strong>PHP</strong>
+                            </br>
+                            <div id="p6" class="mdl-progress mdl-js-progress" style="height:30px"></div>
+                            <script>
+                                document.querySelector('#p6').addEventListener('mdl-componentupgraded', function() {
+                                    this.MaterialProgress.setProgress(80);
+                                });
+                            </script>
+                            <strong>Python</strong>
+                            </br>
+                            <div id="p7" class="mdl-progress mdl-js-progress" style="height:30px"></div>
+                            <script>
+                                document.querySelector('#p7').addEventListener('mdl-componentupgraded', function() {
+                                    this.MaterialProgress.setProgress(80);
+                                });
+                            </script>
+                            <strong>Git</strong>
+                            </br>
+                            <div id="p10" class="mdl-progress mdl-js-progress" style="height:30px"></div>
+                            <script>
+                                document.querySelector('#p10').addEventListener('mdl-componentupgraded', function() {
+                                    this.MaterialProgress.setProgress(85);
+                                });
+                            </script>
+                        </div>
+
+                        <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Education</h3>
+
+                        <p>
+                            <b>University of Illinois at Chicago — Bachelor of Science in Computer Science</b>
+                            </br>
+                            GPA: 3.3
+                            </br>
+                            December 2016
+                        </p>
+                        </br>
+                        </br>
+                        <p>
+                            <b>Harper College — Associate of Science</b>
+                            </br>
+                            GPA: 3.4
+                            </br>
+                            May 2014
+                        </p>
+
+                        <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Experience</h3>
+
+                        <p>
+                            <b>University of Illinois Chicago — Research Assistant</b>
+                            </br>
+                            Summer 2015 - Present
+                            </br>
+                            Department of Computer Science Artificial Intelligence
+                            </br>
+                            • Effectively use Cycorp’s OpenCyc knowledgebase to perform human like reasoning.
+                            </br>
+                            • Improve communication between AI application and user through extensive use of the Java language and OpenCyc’s native API.
+                            </br>
+                            • Mentor and assists local high school student in learning about Artificial Intelligence.
+                            </br>
+                            </br>
+                            <b>AMCSCO — Founder & Developer</b>
+                            </br>
+                            2008-2014
+                            </br>
+                            • Advised and established relationships with small businesses.
+                            </br>
+                            • Designed and planed a modern business model for small businesses through web development.
+                            </br>
+                            • Created full websites tailored to clients need using extensive HTML, CSS, PHP and SQL.
+                            </br>
+                            • Achieved on average 8%-10% more webpage visits than the prior website configuration.
+                            </br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">Simple portfolio website</div>
+                </div>
+                <div class="mdl-mini-footer__right-section">
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy & Terms</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+
+</html>
